@@ -14,11 +14,14 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <h2>Fetching Data From API's</h2>
+    <div class="container-fluid ">
+        <div class="d-flex justify-content-center align-items-center"><h2>Fetching Data From API's</h2>
+        </div>
+       <div class="d-flex justify-content-center align-items-center mt-4">
         <button class="btn btn-primary" onclick="AccesData()">
             Access Data
         </button>
+       </div>
         
         <table class="table table-hover">
             <thead>
@@ -37,19 +40,25 @@
 
         </table>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid mt-5">
+       <div class="d-flex justify-content-center align-items-center mt-4" > 
         <h2>Nasa API's</h2>
+    </div>
+       <div class="d-flex justify-content-center align-items-center mt-4">
         <button class="btn btn-warning" onclick="AccessNasa()">
             Nasa API
         </button>
-        <div class="card" style="width:18rem;">
-          <img src=${info.image} class="card-img-top" id="image" alt="..." width="100" height="150">
-          <div class="card-body">
-            <h5 class="card-title" id="heading5"></h5>
-            <h6 class="card-subtitle mb-2 text-muted " id="heading6"></h6>
-            <p id="para"></p>
-           
-          </div>
+       </div>
+        <div class="d-flex justify-content-center align-items-center mt-4" >
+            <div class="card" style="width:18rem;">
+                <img src=${info.image} class="card-img-top" id="image" alt="..." width="100" height="150">
+                <div class="card-body">
+                  <h5 class="card-title" id="heading5"></h5>
+                  <h6 class="card-subtitle mb-2 text-muted " id="heading6"></h6>
+                  <p id="para"></p>
+                 
+                </div>
+        </div>
         </div>
 
 

@@ -28,7 +28,7 @@ function AccessNasa(){
     ).then(function(informations){
         for( var info of informations){
 
-var nasaimage=document.getElementById("image");
+// var nasaimage=document.getElementById("image");
 // nasaimage.src=info.image;
 var nasacaption=document.getElementById("heading5");
 var paragraph=document.getElementById("para");
