@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+var numbers = [4, 9, 16, 25];
+    //   var num=  numbers.map(value => Math.pow(value,2))
+    //     console.log(num)
+
+    //     var square = [1, 2, 3, 4, 5].map(value => Math.pow(value,2));
+    // for(var a of numbers){
+    //     var sqa=a**2
+    //     console.log(sqa);
+    // }
+    
+        // var a=new Map()
+        // a.set("name" , "arvind bhai");
+        // console.log(typeof(a));
+        // console.log(a.values());
+        // console.log(a.get("name"));
+    //     // console.log(a.entries());
+    // fetch("https://fakestoreapi.com/products/1").then(function(getid){
+    //     return getid.json();
+    // }).then (function(datas){
+        
+    //     console.log(datas.map((entries)));
+        
+    
+    // })
+        // var d = new Date();
+        // console.log(d);
+
+        // var e = new Date()
+        // e.toLocaleDateString();
+
+        // console.log(e);
+       
+    //     function cat(){
+    //         fetch("https://fakestoreapi.com/products/1").then(function(guru){
+    //             return guru.json();
+    //         }).then(function(datas){
+    //            for( var data of datas){
+    //             console.log(data.Map(values()));
+    //            }
+    //         })
+            
+    //     }
+
+// console.log(new Date());
+// console.log(new Date("2001-05-17 16:00"))
+// function bodyload(){
+    
+// }
+setInterval(gettime,1000);
+
+function gettime(){
+    var a = new Date();
+  var b=document.getElementById("datetime");
+  b.innerHTML= a.toLocaleTimeString();
+  
+}
+e= new Date();
+c=e.getHours();
+
+  document.write(c+"<br>");
+  document.write(e.getMinutes()+"<br>",e.getSeconds()+"<br>",e.getDate()+"<br>",e.getDay()+"<br>",e.getFullYear()+"<br>",e.toLocaleDateString()+"<br>",e. toLocaleTimeString())
+ var msg=document.getElementById("msg");
+ if(hours>=0 && hours<=12) {
+                msg.innerHTML = "Good Morning";
+                
+            } else if(hours>12 && hours<=17) {
+                msg.innerHTML = "Good Afternoon";
+                
+            } else {
+                msg.innerHTML = "Good Evening";
+            }
+
+        </script>
+</head>
+<body onload="gettime()">
+    <div id="datetime">
+
+    </div>
+    <div class="msg">
+
+    </div>
+    
+</body>
+</html>

@@ -47,4 +47,3 @@ nasaidenty.innerHTML=info.identifier;
     
 }
 
-
